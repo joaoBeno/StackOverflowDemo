@@ -3,9 +3,9 @@
 
     <string name="app_name">StackOverflow Demo</string>
 
-    <string name="title_section1">Frag A here</string>
-    <string name="title_section2">Frag B here</string>
-    <string name="title_section3">Frag C here</string>
+    <string name="title_section1">Object A</string>
+    <string name="title_section2">Object B</string>
+    <string name="title_section3">Object C</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>

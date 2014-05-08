@@ -15,8 +15,11 @@
 
         <TextView
             android:id="@+id/section_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Here should be an different fragment on each tab"
+            android:textColor="#FFFFFFFF"
+            android:layout_margin="20dp" />
 
     </LinearLayout>
 
@@ -25,6 +28,25 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:id="@+id/editText"
+            android:layout_weight="1" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"  >
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView" />
+        </ScrollView>
 
     </LinearLayout>
 
