@@ -182,6 +182,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
+
             return rootView;
         }
     }
